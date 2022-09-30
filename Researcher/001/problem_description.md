@@ -26,9 +26,12 @@ You goal is to develop an algorithm that detect the language of an arbitrary tex
 
 ➡️  ➡️ How?
 
-In order to carry out this assessment, we provide a dataset containing sentences in 21 languages (named “formatted_data”). This database is a .csv files whose separator is a “;”. The first column is the language code, the second one is the text, and the third one is the number of characters in the specified language.
-This database is a collection of texts extracted from the European Union Proceedings.
-A research article is provided to give you some insights on how to design such algorithm. We strongly advise you to use it in order to finish the assignment on time.
+In order to carry out this assessment, we provide a dataset containing sentences in 21 languages ([“formatted_data.zip"](http://data/formatted_data.zip)). This database is a .csv files whose separator is a “;”. The first column is the language code, the second one is the text, and the third one is the number of characters in the specified language.
+
+This database is a collection of texts extracted from the European Union Proceedings. Train and test corpus are provided in ([traintest_corpus.zip"](http://data/traintest_corpus.zip))
+
+A research article ["StatisticalLID-II.pdf"](http://reference/StatisticalLID-II.pdf) is provided to give you some insights on how to design such algorithm. We strongly advise you to use it in order to finish the assignment on time.
+
 You are not required to use all languages to train your model and you can use any available resource to solve the problem (apart from directly using a pre-packaged language detector…).
 
 ## Technical specifications

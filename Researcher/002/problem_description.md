@@ -26,9 +26,11 @@ You goal is to develop an algorithm that detects anomalies in trading profiles. 
 
 ➡️  ➡️ How?
 
-For this assessment, we provide a dataset containing the trading profiles of 4 FX traders (named “Traders”). This database is an excel file. The first column is the transaction number, the second column is the trading volume in USD, the third column is the trading price for the currency pair, the fourth column is the market price, the sixth column is the PL (profit/loss)
+For this assessment, we provide a dataset containing the trading profiles of 4 FX traders ([test.xlsx](http://data/test.xlsx)). This database is an excel file. The first column is the transaction number, the second column is the trading volume in USD, the third column is the trading price for the currency pair, the fourth column is the market price, the sixth column is the PL (profit/loss)
 
-The next three columns are transaction time, transaction date, and Validation time. The last column specifies whether the transaction is Regular (equal to 0) or Anomaly (equal to 1).
+The next three columns are transaction time, transaction date, and Validation time. The last column specifies whether the trade is Regular (equal to 0) or Anomaly (equal to 1).
+
+
 
 ## Technical specifications
 

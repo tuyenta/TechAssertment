@@ -22,12 +22,22 @@ The aim of this assessment is to challenge you on a technical basis, involving m
 
 ➡️  ➡️ Goal
 
-Your goal is to develop an algorithm that allows detecting the hierarchical structure of documents (Section 1, Section 2, Subsection 2.1, Subsection 2.2, etc.). For such purposes, your solution should return an API where the user can upload a pdf file and get a JSON output containing the document's structure and the corresponding text for each (sub)session.
+Your goal is to develop an algorithm that allows detecting the hierarchical structure of documents (Section 1, Section 2, Subsection 2.1, Subsection 2.2, etc.). For example:
+
+    file test.pdf
+        ├── Section 1
+        │   ├── Subsection 1.1
+        │   └── Subsection 1.2
+        ├── Section 2
+        │   ├── Subsection 2.1
+        │   └── Subsection 2.2
+        └── Section 3
+
+For such purposes, your solution should return an API where the user can upload a pdf file and get a JSON output containing the document's structure and the corresponding text for each (sub)session.
 
 ➡️  ➡️ How?
 
-For this assessment, we provide data as a pdf file that is a scientific paper.
-
+For this assessment, we provide data as a pdf file [test.pdf]](http://test.pdf) that is a scientific article.
 ## Technical specifications
 
 - We can read most programming languages. Just so you know, we mostly use Python and Augular/TypeScript at Upskills. Justify the language you chose in your README.
@@ -56,6 +66,7 @@ If you're using Python:
 
 - Consider using poetry to handle dependencies
 - Consider using a linter (e.g. flake8) and an autoformatter (e.g. black)
+- Consider using FastAPI to create an API
 
 ## Need help?
 
