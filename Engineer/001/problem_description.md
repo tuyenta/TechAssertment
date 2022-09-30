@@ -24,7 +24,7 @@ We are also not happy with the performance: it takes a very long time to ingest 
 
 ➡️  ➡️  Here's the code:
 
-[hiring-test-data-engineering.tar.gz](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b477f537-1eb5-4114-90b3-65222b398555/hiring-test-data-engineering.tar.gz)
+[hiring_test_ml_engineering](https://hiring_test_ml_engineering.zip)
 
 ➡️  ➡️  Here's the data:
 
