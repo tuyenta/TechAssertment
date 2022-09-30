@@ -22,13 +22,11 @@ The aim of this assessment is to challenge you on a technical basis, involving m
 
 ➡️  ➡️ Goal
 
-You goal is to develop an algorithm that detects anomalies in trading profiles. For such a purpose, your solution will return "anomaly" for a trade whose data is the outlier, or "regular" for normal trading data.
+Your goal is to develop an algorithm that allows detecting the hierarchical structure of documents (Section 1, Section 2, Subsection 2.1, Subsection 2.2, etc.). For such purposes, your solution should return an API where the user can upload a pdf file and get a JSON output containing the document's structure and the corresponding text for each (sub)session.
 
 ➡️  ➡️ How?
 
-For this assessment, we provide a dataset containing the trading profiles of 4 FX traders (named “Traders”). This database is an excel file. The first column is the transaction number, the second column is the trading volume in USD, the third column is the trading price for the currency pair, the fourth column is the market price, the sixth column is the PL (profit/loss)
-
-The next three columns are transaction time, transaction date, and Validation time. The last column specifies whether the transaction is Regular (equal to 0) or Anomaly (equal to 1).
+For this assessment, we provide data as a pdf file that is a scientific paper.
 
 ## Technical specifications
 
